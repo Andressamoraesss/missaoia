@@ -6,48 +6,48 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "O que é poluicao ambiental;",
+        enunciado: "O que é poluição ambiental?",
         alternativas: [
             {
                 texto: "Modificacoes prejudiciais que ocorrem no meio ambiente",
-                afirmacao: "Ocorrem devido a introducao de substancias nomeio ambiente que afetam o ecossistema e a saude humana "
+                afirmacao: "jogar lixo no mar"
             },
             {
             }
         ]
     },
     {
-        enunciado: " quais sao os tipo de poluicao ambiental?",
+        enunciado: "Quais são os tipo de poluição ambiental?",
         alternativas: [
             {
                 texto: "Poluicao atmosferica, poluicao hidrica, poluicao do solo, poluicao termica, poluicao sonora e visual.",
-                afirmacao: "essas sao algumas poluicoes que acabam prejudicando a vida dos seres humanos e do demais seres vivos."
+                afirmacao: "cuidar da aguá,não jogar lixo no chão etc..."
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "",
+                afirmacao: ""
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "A poluição da água, muitas vezes, é confundida com sua contaminação. Analise as alternativas a seguir e marque aquela que melhor indica a definição de água poluída",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "Água poluída é aquela que possui alterações em suas características químicas e físicas, tais como mudanças no cheiro, cor e sabor.",
+            
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "Água poluída é aquela que apresenta organismos vivos, tais como vermes e protozoários.",
+            
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Nos últimos anos, observa-se um aumento crescente do percentual de CO2 na atmosfera. Entre outros efeitos, o excesso de CO2 pode contribuir para:",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                texto: " aquecimento global."
+                afirmacao: "diminuição da fotossíntese."
             },
             {
                 texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
